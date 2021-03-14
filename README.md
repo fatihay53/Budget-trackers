@@ -1,63 +1,91 @@
-# Unit 18 PWA Homework: Online/Offline Budget Trackers
 
-Add functionality to our existing Budget Tracker application to allow for offline access and functionality.
+<h1 align="center", margin="2%">                  💰     Online/Offline Budget Trackers 💰</h1>
 
-The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
+[![GitHub license](https://img.shields.io/badge/license-MIT2.0-blue.svg)][L]
 
-Offline Functionality:
+[L]:https://opensource.org/licenses/MIT
 
-  * Enter deposits offline
+<h1>Description</h1>
 
-  * Enter expenses offline
-
-When brought back online:
-
-  * Offline entries should be added to tracker.
-
-## User Story
-AS AN avid traveller
-I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
-SO THAT my account balance is accurate when I am traveling
-
-## Business Context
-
-Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success.
+   The user will be able to add expenses and deposits to their budget with or without a connection. 
+   When entering transactions offline, they should populate the total when brought back online.
 
 
-## Acceptance Criteria
-GIVEN a user is on Budget App without an internet connection
-WHEN the user inputs a withdrawal or deposit
-THEN that will be shown on the page, and added to their transaction history when their connection is back online.
+<h1> Table of Contents </h1>
 
-- - -
 
-## Commit Early and Often
+* [Demo](#Demo)
 
-* One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+* [Installation](#installation)
+  
+* [Usage](#usage)
 
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
 
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
+* [License](#license)
 
-* Follow these guidelines for committing:
+* [Deployed](#Deployed)
 
-  * Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
+ 
+* [Questions](#Questions)
 
-  * Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
 
-  * Don't commit half done work, for the sake of your collaborators (and your future self!)
+## Demo:
 
-  * Test your application before you commit to ensure functionality at every step in the development process
+<p align="center">
+<img  src="./public/icons/screenshot.jpg" width="75%" height="500px">
+</p>
 
-* We would like you to have well over 200 commits by graduation, so commit early and often!
+## Installation:
+    1️⃣ Clone repository to your local ✔
+    2️⃣ Run npm packages in (package.json) file ✔
+    3️⃣ Run 'Node server' or 'npm start' to start application ✔
+    
+##  Usage:
+    1️⃣ After running server ✔
+    2️⃣ Enter name and transaction amount ✔
+    3️⃣ Add Funds or Subtract Fund depends on needed ✔ 
+    4️⃣ After transaction chart below will inform about the total amount by years ✔
+    
 
-* Deploy your application with [Heroku and MongoDB Atlas.](../04-Important/MongoAtlas-Deploy.md)
+##  License:
+    This project is licensed under the MIT license.
 
-## Submission on BCS
+    For more information about the license, click on the link below.
 
-* You are required to submit the following:
+<h1>
+<div  style="font-size:50px">  
 
-  * the URL to the deployed application
+©  [![license](https://img.shields.io/badge/license-MIT-green.svg)][M] 📝
 
-  * the URL to the Github repository
+[M]: https://opensource.org/licenses/mit
+
+</div>
+
+</h1>
+
+## Deployed:
+
+[![Deployed](https://user-images.githubusercontent.com/77207167/111052220-28eace80-8427-11eb-9d86-84c413479de1.png)][H]
+
+[H]: https://online-offline-budget-oo.herokuapp.com/
+
+## Questions:
+   
+<h1 align="center">
+
+     For questions ❓ 
+
+[![github](https://user-images.githubusercontent.com/77207167/111052614-58e7a100-842a-11eb-834d-21aa5fa25e2e.png)][1]
+[![linkedin](https://user-images.githubusercontent.com/77207167/111052328-d362f180-8427-11eb-93b2-db395a9da005.png)][2]
+[![Gmail](https://user-images.githubusercontent.com/77207167/111044783-9e02d780-8418-11eb-80c7-65c663549a9e.png)][3] 
+
+
+
+[1]: https://github.com/fatihay53
+[2]: https://www.linkedin.com/in/fatih-sultan-ay-211689181
+[3]: mailto:f.sultanay@gmail.com
+
+</h1>
+
+
 
